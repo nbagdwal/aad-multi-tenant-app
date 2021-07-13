@@ -1,0 +1,23 @@
+﻿@using System.Security.Principal
+@using Microsoft.Identity.Web
+
+
+<div>
+    
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div style="float:left">
+                <span>Hello  @User.GetDisplayName()!</span>
+            </div>
+            <div style="float:right">
+                <a asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut">Sign out</a>
+            </div>
+        }
+        else
+        {
+            <div style="float:right">
+                <a asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Sign in</a>
+            </div>
+        }
+    
+</div>
