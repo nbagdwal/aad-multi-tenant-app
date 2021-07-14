@@ -160,3 +160,5 @@ For additional ways to deploy this web application to Azure, please refer to [De
 
 ## About the code
 The code included in this sample is intended to get you going with a simple multi teanat Azure Active Directory app using C#, ASP.NET Core MVC that connects to Azure Cosmos DB. It is not intended to be a set of best practices on how to build scalable enterprise grade web applications. This is beyond the scope of this quick start sample. 
+
+For other Azure Active Directory multi-tenant application documentation refer - [AAD Multi-tenant](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/master/2-WebApp-graph-user/2-3-Multi-Tenant/README.md)
